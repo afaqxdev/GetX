@@ -16,11 +16,11 @@ A few resources Where i this stuff learn Here is
  
 
 ## What we lean in this Project 
--[Snackbar in Getx]()
--[Alert Dialog in Getx]()
--[Bottom Sheet in Getx]()
--[Light and Dark Theme changing With Getx]()
--[Page Routing  in Getx]()
--[Responsiveness UI  in Getx]()
+- [Snackbar in Getx]()
+- [Alert Dialog in Getx]()
+- [Bottom Sheet in Getx]()
+- [Light and Dark Theme changing With Getx]()
+- [Page Routing  in Getx]()
+- [Responsiveness UI  in Getx]()
 
 
