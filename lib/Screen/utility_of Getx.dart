@@ -68,13 +68,18 @@ class _HomeScreenState extends State<HomeScreen> {
                       onTap: () {
                         Get.changeTheme(ThemeData.dark());
                       },
-                    )
+                    ),
                   ],
                 ),
               ));
             },
           ),
-        )
+        ),
+        TextButton(
+            onPressed: () {
+              Get.toNamed('/2nd');
+            },
+            child: const Text("Got Next page"))
       ]),
       floatingActionButton: FloatingActionButton(
         child: const Icon(Icons.add),

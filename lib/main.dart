@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:getx/Screen/second_Screen.dart';
 
-import 'snackBar.dart';
+import 'Screen/first_Screen.dart';
+import 'Screen/responsive-UI.dart';
+import 'Screen/utility_of Getx.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,6 +22,11 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: const HomeScreen(),
+      getPages: [
+        GetPage(name: '/', page: () => const HomeScreen()),
+        GetPage(name: '/2nd', page: () => const SecondScreen()),
+        GetPage(name: '/3rd', page: () => const Responsive())
+      ],
     );
   }
 }
