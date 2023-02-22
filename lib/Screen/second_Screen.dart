@@ -1,6 +1,5 @@
+// ignore: file_names
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:get/get.dart';
 
 class SecondScreen extends StatefulWidget {
@@ -18,12 +17,16 @@ class _SecondScreenState extends State<SecondScreen> {
         title: const Text("Second Screen"),
         centerTitle: true,
       ),
-      body: Center(
-        child: TextButton(
-            onPressed: () {
-              Get.toNamed('3rd');
-            },
-            child: const Text("Go to next Screen")),
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: [
+          TextButton(
+              onPressed: () {
+                Get.toNamed('/3rd');
+              },
+              child: const Text("Go to next Screen")),
+        ],
       ),
     );
   }

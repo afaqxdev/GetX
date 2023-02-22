@@ -77,7 +77,7 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         TextButton(
             onPressed: () {
-              Get.toNamed('/2nd');
+              Get.toNamed('/1', arguments: ['afaq', 'zahir']);
             },
             child: const Text("Got Next page"))
       ]),
