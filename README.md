@@ -15,12 +15,12 @@ A few resources Where i this stuff learn Here is
 - [I am learning this from My Guru Asif Taj  his youtube channel link ](https://www.youtube.com/@thetechbrotherss)
  
 
-## What we lean in this Project 
--[Snackbar in Getx]()
--[Alert Dialog in Getx]()
--[Bottom Sheet in Getx]()
--[Light and Dark Theme changing With Getx]()
--[Page Routing  in Getx]()
--[Responsiveness UI  in Getx]()
+## What we Learn in this Project 
+- [Snackbar in Getx]()
+- [Alert Dialog in Getx]()
+- [Bottom Sheet in Getx]()
+- [Light and Dark Theme changing With Getx]()
+- [Page Routing  in Getx]()
+- [Responsiveness UI  in Getx]()
 
 
