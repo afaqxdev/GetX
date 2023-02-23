@@ -1,10 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:getx/Screen/first_Screen.dart';
-import 'package:getx/Screen/language/language.dart';
-import 'package:getx/Screen/language/localization.dart';
-import 'package:getx/Screen/second_Screen.dart';
-import 'package:getx/Screen/utility_of%20Getx.dart';
+import 'package:getx/State%20Managment/Example%201/counter_Example.dart';
+import 'package:getx/State%20Managment/Example%203/switch_Example.dart';
+import 'package:getx/Utilities/first_Screen.dart';
+import 'package:getx/Utilities/language/language.dart';
+import 'package:getx/Utilities/language/localization.dart';
+import 'package:getx/Utilities/second_Screen.dart';
+import 'package:getx/Utilities/utility_of%20Getx.dart';
+
+import 'State Managment/Example 2/slider.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,24 +24,24 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       translations: Languages(),
       // this were you will give your local, like if its hindi, urdu, spanish
-      locale: Locale('en', 'US'),
-      fallbackLocale: Locale('en', 'US'),
+      locale: const Locale('en', 'US'),
+      fallbackLocale: const Locale('en', 'US'),
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
       home: Builder(builder: (context) {
-        return HomeScreen();
+        return const SwitchExample();
       }),
-      getPages: [
-        GetPage(name: '/', page: () => const HomeScreen()),
-        GetPage(
-            name: '/1',
-            page: () => FirstScreen(
-                  name: '',
-                )),
-        GetPage(name: '/2nd', page: () => const SecondScreen()),
-        GetPage(name: '/3rd', page: () => const localization()),
-      ],
+      // getPages: [
+      //   GetPage(name: '/', page: () => const HomeScreen()),
+      //   GetPage(
+      //       name: '/1',
+      //       page: () => FirstScreen(
+      //             name: '',
+      //           )),
+      //   GetPage(name: '/2nd', page: () => const SecondScreen()),
+      //   GetPage(name: '/3rd', page: () => const localization()),
+      // ],
     );
   }
 }
