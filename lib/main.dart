@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:getx/State%20Managment/Example%201/counter_Example.dart';
 import 'package:getx/State%20Managment/Example%203/switch_Example.dart';
+import 'package:getx/State%20Managment/Example%204/favourite_Example.dart';
 import 'package:getx/Utilities/first_Screen.dart';
 import 'package:getx/Utilities/language/language.dart';
 import 'package:getx/Utilities/language/localization.dart';
@@ -30,7 +31,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: Builder(builder: (context) {
-        return const SwitchExample();
+        return const FavouriteExample();
       }),
       // getPages: [
       //   GetPage(name: '/', page: () => const HomeScreen()),
