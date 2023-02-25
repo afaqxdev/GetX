@@ -1,4 +1,4 @@
-# getx
+# Getx
 
 ## Introduction About Project
 
@@ -22,5 +22,24 @@ A few resources Where i this stuff learn Here is
 - [Light and Dark Theme changing With Getx]()
 - [Page Routing  in Getx]()
 - [Responsiveness UI  in Getx]()
+- [GetX Localization Change the Language of the App]()
+
+# GetX State Manamgent with Example
+- [GetX Counter Example, i.e In this example we will create a simple counter app with getx to increment the value of coutner]()
+- [GetX Example Two]()
+- [GetX Example Two]()
+- [GetX Example Three]()
+- [Favourite App with GetX]()
+- [GetX Image Picker]()
+- [Login(Post,Put, Delete) Api With GetX]()
+- [Get Api with GetX]()
+
+
+
+
+
+
+
+
 
 
